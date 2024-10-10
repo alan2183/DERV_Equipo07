@@ -1,0 +1,1177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &332499531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332499532}
+  - component: {fileID: 332499534}
+  - component: {fileID: 332499533}
+  m_Layer: 5
+  m_Name: dialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &332499532
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332499531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504504894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.7568054, y: -83.79744}
+  m_SizeDelta: {x: -17.7366, y: -191.8168}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &332499533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332499531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.00665617, g: 0, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &332499534
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332499531}
+  m_CullTransparentMesh: 1
+--- !u!1 &430517846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 430517849}
+  - component: {fileID: 430517848}
+  - component: {fileID: 430517847}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &430517847
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430517846}
+  m_Enabled: 1
+--- !u!20 &430517848
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430517846}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &430517849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430517846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &668002461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668002462}
+  - component: {fileID: 668002464}
+  - component: {fileID: 668002463}
+  m_Layer: 5
+  m_Name: Mensaje
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &668002462
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668002461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504504894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 91.40103, y: -80.58149}
+  m_SizeDelta: {x: 484.1274, y: 145.151}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &668002463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668002461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &668002464
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668002461}
+  m_CullTransparentMesh: 1
+--- !u!1 &757231337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757231338}
+  - component: {fileID: 757231340}
+  - component: {fileID: 757231339}
+  m_Layer: 5
+  m_Name: NombreP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &757231338
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757231337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504504894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -254.43, y: -162.14}
+  m_SizeDelta: {x: 542.5956, y: 58.3932}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &757231339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757231337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190256
+  m_fontColor: {r: 0.6901961, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 29
+  m_fontSizeBase: 29
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &757231340
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757231337}
+  m_CullTransparentMesh: 1
+--- !u!1 &781784835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 781784836}
+  - component: {fileID: 781784838}
+  - component: {fileID: 781784837}
+  m_Layer: 5
+  m_Name: Foto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &781784836
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781784835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504504894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -254.43, y: -70.475}
+  m_SizeDelta: {x: 162.8139, y: 124.9373}
+  m_Pivot: {x: 0.49999994, y: 0.49999997}
+--- !u!114 &781784837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781784835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &781784838
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781784835}
+  m_CullTransparentMesh: 1
+--- !u!1 &1065350478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1065350480}
+  - component: {fileID: 1065350479}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1065350479
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065350478}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1065350480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065350478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1504504890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1504504894}
+  - component: {fileID: 1504504893}
+  - component: {fileID: 1504504892}
+  - component: {fileID: 1504504891}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1504504891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504504890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1504504892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504504890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1504504893
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504504890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1504504894
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504504890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1964422718}
+  - {fileID: 332499532}
+  - {fileID: 757231338}
+  - {fileID: 668002462}
+  - {fileID: 781784836}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -16.01, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1964422717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964422718}
+  - component: {fileID: 1964422720}
+  - component: {fileID: 1964422719}
+  m_Layer: 5
+  m_Name: Fondo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1964422718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964422717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1504504894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -1.7001038, y: 5.436905}
+  m_SizeDelta: {x: 21.2736, y: 10.874}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1964422719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964422717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1964422720
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964422717}
+  m_CullTransparentMesh: 1
+--- !u!1 &2110908495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2110908497}
+  - component: {fileID: 2110908496}
+  m_Layer: 0
+  m_Name: HandlerConversacion2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2110908496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110908495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d36fdb442fa3764e873f7a84f27ef43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charla:
+  - name: Sofia
+    texto: "<color=#6A5ACD><b>Entonces,</b></color> <color=#FF6347><i>haremos</i></color>
+      <color=#3CB371><u>un</u></color> <color=#FF8C00><b>balance</b></color> <color=#00BFFF><i>entre</i></color>
+      <color=#FF1493><u>aventuras</u></color> <color=#32CD32><b>y</b></color> <color=#FFD700><i>relajaci\xF3n.</i></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: <color=#FF4500><b>Me</b></color> <color=#2E8B57><i>parece</i></color>
+      <color=#FF69B4><u>un</u></color> <color=#8A2BE2><b>plan</b></color> <color=#FF1493><i>perfecto.</i></color>
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#008B8B><b>\xBFQu\xE9</b></color> <color=#FF4500><i>opinan</i></color>
+      <color=#7B68EE><u>de</u></color> <color=#DAA520><b>probar</b></color> <color=#32CD32><i>la</i></color>
+      <color=#FF6347><u>comida</u></color> <color=#4682B4><b>local?</b></color> <color=#FF69B4><i>He</i></color>
+      <color=#2E8B57><u>escuchado</u></color> <color=#8A2BE2><b>que</b></color> <color=#FFD700><i>la</i></color>
+      <color=#FF1493><u>comida</u></color> <color=#00BFFF><b>en</b></color> <color=#FF4500><i>Canc\xFAn</i></color>
+      <color=#32CD32><u>es</u></color> <color=#FF8C00><b>deliciosa.</b></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#FF6347><b>\xA1Claro!</b></color> <color=#4682B4><i>Quiero</i></color>
+      <color=#DA70D6><u>probar</u></color> <color=#7FFF00><b>todo</b></color> <color=#DC143C><i>lo</i></color>
+      <color=#FFD700><u>que</u></color> <color=#8B4513><b>pueda.</b></color> <color=#1E90FF><i>Desde</i></color>
+      <color=#FF69B4><u>mariscos</u></color> <color=#32CD32><b>hasta</b></color>
+      <color=#FF4500><i>los</i></color> <color=#9400D3><u>tacos.</u></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 8b6806ef483215049be0ba25c691cfa3, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF4500><b>Yo</b></color> <color=#2E8B57><i>tambi\xE9n.</i></color>
+      <color=#6A5ACD><u>No</u></color> <color=#FF8C00><b>podemos</b></color> <color=#00CED1><i>irnos</i></color>
+      <color=#8B0000><u>sin</u></color> <color=#ADFF2F><b>probar</b></color> <color=#FF1493><i>las</i></color>
+      <color=#20B2AA><u>especialidades</u></color> <color=#B22222><b>locales.</b></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 8b6806ef483215049be0ba25c691cfa3, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF4500><b>Yo</b></color> <color=#2E8B57><i>tambi\xE9n.</i></color>
+      <color=#6A5ACD><u>No</u></color> <color=#FF8C00><b>podemos</b></color> <color=#00CED1><i>irnos</i></color>
+      <color=#8B0000><u>sin</u></color> <color=#ADFF2F><b>probar</b></color> <color=#FF1493><i>las</i></color>
+      <color=#20B2AA><u>especialidades</u></color> <color=#B22222><b>locales.</b></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#008080><b>Tal</b></color> <color=#8A2BE2><i>vez</i></color> <color=#FF4500><u>podr\xEDamos</u></color>
+      <color=#2E8B57><b>hacer</b></color> <color=#8B0000><i>un</i></color> <color=#20B2AA><u>tour</u></color>
+      <color=#9932CC><b>gastron\xF3mico.</b></color> <color=#000080><i>\xBFQu\xE9</i></color>
+      <color=#DAA520><u>opinan?</u></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 0c0e4b2edebdee34484ba1c6b077f3cb, type: 3}
+  - name: Sofia
+    texto: "<color=#4682B4><b>Me</b></color> <color=#DC143C><i>encanta</i></color>
+      <color=#228B22><u>la</u></color> <color=#FFD700><b>idea.</b></color> <color=#4169E1><i>As\xED</i></color>
+      <color=#8B008B><u>podr\xEDamos</u></color> <color=#FF6347><b>probar</b></color>
+      <color=#2F4F4F><i>varios</i></color> <color=#D2691E><u>platillos</u></color>
+      <color=#483D8B><b>en</b></color> <color=#B22222><i>un</i></color> <color=#556B2F><u>solo</u></color>
+      <color=#8B4513><b>d\xEDa.</b></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 0c0e4b2edebdee34484ba1c6b077f3cb, type: 3}
+  - name: Eduardo
+    texto: "\"<color=#00008B><b>Me</b></color> <color=#FF4500><i>apunto.</i></color>
+      <color=#2E8B57><u>Nada</u></color> <color=#8A2BE2><b>mejor</b></color> <color=#B8860B><i>que</i></color>
+      <color=#FF1493><u>conocer</u></color> <color=#4682B4><b>un</b></color> <color=#9932CC><i>lugar</i></color>
+      <color=#CD5C5C><u>a</u></color> <color=#32CD32><b>trav\xE9s</b></color> <color=#FF6347><i>de</i></color>
+      <color=#DAA520><u>su</u></color> <color=#800000><b>comida.</b></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 0c0e4b2edebdee34484ba1c6b077f3cb, type: 3}
+  - name: Alan
+    texto: "<color=#FF0000><b>De</b></color> <color=#008000><i>acuerdo.</i></color>
+      <color=#0000FF><u>Aparte,</u></color> <color=#FFA500><b>podr\xEDamos</b></color>
+      <color=#800080><i>aprender</i></color> <color=#808000><u>un</u></color> <color=#00CED1><b>poco</b></color>
+      <color=#FF69B4><i>de</i></color> <color=#696969><u>la</u></color> <color=#8B0000><b>cultura</b></color>
+      <color=#20B2AA><i>local.</i></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: e79e6b0382ef34849bc01a0b51ab2b12, type: 3}
+  - name: Sofia
+    texto: "<color=#FFD700><b>Exactamente.</b></color> <color=#32CD32><i>Y</i></color>
+      <color=#1E90FF><u>podr\xEDamos</u></color> <color=#FF6347><b>llevar</b></color>
+      <color=#9932CC><i>algunas</i></color> <color=#8B4513><u>recetas</u></color>
+      <color=#D2691E><b>de</b></color> <color=#8A2BE2><i>regreso</i></color> <color=#4682B4><u>a</u></color>
+      <color=#FF1493><b>casa.</b></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF4500><b>Buena</b></color> <color=#00CED1><i>idea,</i></color>
+      <color=#9400D3><u>as\xED</u></color> <color=#FFD700><b>seguimos</b></color>
+      <color=#00FF7F><i>disfrutando</i></color> <color=#1E90FF><u>del</u></color>
+      <color=#8B0000><b>viaje</b></color> <color=#7FFF00><i>despu\xE9s</i></color>
+      <color=#DA70D6><u>de</u></color> <color=#20B2AA><b>que</b></color> <color=#FF69B4><i>termine.</i></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#FF6347><b>Definitivamente.</b></color> <color=#4682B4><i>Por</i></color>
+      <color=#32CD32><u>cierto,</u></color> <color=#FFD700><b>\xBFya</b></color>
+      <color=#FF69B4><i>revisaron</i></color> <color=#6A5ACD><u>sus</u></color> <color=#20B2AA><b>pasaportes?</b></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#FF4500><b>S\xED,</b></color> <color=#7FFF00><i>el</i></color>
+      <color=#FF1493><u>m\xEDo</u></color> <color=#00BFFF><b>est\xE1</b></color>
+      <color=#32CD32><i>al</i></color> <color=#8A2BE2><u>d\xEDa.</u></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF6347><b>El</b></color> <color=#3CB371><i>m\xEDo</i></color>
+      <color=#1E90FF><u>tambi\xE9n.</u></color> <color=#FFD700><b>\xA1Listo</b></color>
+      <color=#FF4500><i>para</i></color> <color=#00CED1><u>viajar!</u></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#FF8C00><b>Genial,</b></color> <color=#32CD32><i>yo</i></color>
+      <color=#4682B4><u>tambi\xE9n</u></color> <color=#FF4500><b>lo</b></color> <color=#1E90FF><i>revis\xE9.</i></color>
+      <color=#8A2BE2><u>Todo</u></color> <color=#FFD700><b>en</b></color> <color=#00FA9A><i>orden.</i></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#FF4500><b>\xA1Perfecto!</b></color> <color=#20B2AA><i>Todo</i></color>
+      <color=#8A2BE2><u>est\xE1</u></color> <color=#FF69B4><b>saliendo</b></color>
+      <color=#32CD32><i>muy</i></color> <color=#FFD700><u>bien.</u></color> <color=#FF1493><b>Estoy</b></color>
+      <color=#00BFFF><i>emocionada.</i></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF6347><b>Yo</b></color> <color=#4682B4><i>tambi\xE9n.</i></color>
+      <color=#32CD32><u>Este</u></color> <color=#FFD700><b>viaje</b></color> <color=#00BFFF><i>va</i></color>
+      <color=#FF4500><u>a</u></color> <color=#DA70D6><b>ser</b></color> <color=#20B2AA><i>inolvidable.</i></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: <color=#FF69B4><b>No</b></color> <color=#8A2BE2><i>veo</i></color> <color=#00FA9A><u>la</u></color>
+      <color=#FFD700><b>hora</b></color> <color=#FF4500><i>de</i></color> <color=#1E90FF><u>estar</u></color>
+      <color=#32CD32><b>en</b></color> <color=#FF6347><i>la</i></color> <color=#00BFFF><u>playa</u></color>
+      <color=#FF1493><b>con</b></color> <color=#20B2AA><i>un</i></color> <color=#DA70D6><u>buen</u></color>
+      <color=#4682B4><b>libro.</b></color>
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 1bc7b119855468e448df6f2ffb1eec20, type: 3}
+  - name: Sofia
+    texto: "<color=#FF6347><b>\xA1Exacto!</b></color> <color=#3CB371><i>Arena,</i></color>
+      <color=#1E90FF><u>sol</u></color> <color=#FFD700><b>y</b></color> <color=#32CD32><i>un</i></color>
+      <color=#FF4500><u>buen</u></color> <color=#FF69B4><b>libro,</b></color> <color=#20B2AA><i>combinaci\xF3n</i></color>
+      <color=#8A2BE2><u>perfecta.</u></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 1bc7b119855468e448df6f2ffb1eec20, type: 3}
+  - name: Eduardo
+    texto: "<color=#FF8C00><b>Hablando</b></color> <color=#4B0082><i>de</i></color>
+      <color=#00CED1><u>libros,</u></color> <color=#FF1493><b>\xBFqu\xE9</b></color>
+      <color=#7FFF00><i>piensan</i></color> <color=#DC143C><u>llevar</u></color>
+      <color=#FFD700><b>para</b></color> <color=#00BFFF><i>leer?</i></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#8A2BE2><b>Estoy</b></color> <color=#FF6347><i>pensando</i></color>
+      <color=#00FF00><u>en</u></color> <color=#FF4500><b>llevar</b></color> <color=#DA70D6><i>una</i></color>
+      <color=#00FA9A><u>novela</u></color> <color=#FF1493><b>de</b></color> <color=#40E0D0><i>misterio.</i></color>
+      <color=#FF8C00><u>\xBFY</u></color> <color=#FF69B4><b>t\xFA?</b></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#1E90FF><b>Yo</b></color> <color=#32CD32><i>quiero</i></color>
+      <color=#FF4500><u>llevar</u></color> <color=#6A5ACD><b>algo</b></color> <color=#FFD700><i>de</i></color>
+      <color=#FF6347><u>ciencia</u></color> <color=#8A2BE2><b>ficci\xF3n,</b></color>
+      <color=#00FA9A><i>me</i></color> <color=#FF1493><u>encanta</u></color> <color=#FF69B4><b>ese</b></color>
+      <color=#20B2AA><i>g\xE9nero.</i></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: <color=#FF69B4><b>Yo</b></color> <color=#FFD700><i>tal</i></color> <color=#ADFF2F><u>vez</u></color>
+      <color=#FF6347><b>lleve</b></color> <color=#1E90FF><i>algo</i></color> <color=#32CD32><u>de</u></color>
+      <color=#FF4500><b>historia.</b></color> <color=#8A2BE2><i>Me</i></color> <color=#FF1493><u>gusta</u></color>
+      <color=#00FA9A><b>aprender</b></color> <color=#20B2AA><i>mientras</i></color>
+      <color=#FF8C00><u>me</u></color> <color=#7B68EE><b>relajo.</b></color>
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#FF4500><b>\xA1Qu\xE9</b></color> <color=#7CFC00><i>interesante!</i></color>
+      <color=#00BFFF><u>Cada</u></color> <color=#FF1493><b>uno</b></color> <color=#FFD700><i>con</i></color>
+      <color=#8A2BE2><u>su</u></color> <color=#32CD32><b>propio</b></color> <color=#FF6347><i>estilo.</i></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#FF69B4><b>S\xED,</b></color> <color=#6A5ACD><i>pero</i></color>
+      <color=#20B2AA><u>todos</u></color> <color=#D2691E><b>en</b></color> <color=#FF8C00><i>el</i></color>
+      <color=#9370DB><u>mismo</u></color> <color=#32CD32><b>plan</b></color> <color=#DC143C><i>de</i></color>
+      <color=#1E90FF><u>disfrutar.</u></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: <color=#FF4500><b>Eso</b></color> <color=#2E8B57><i>es</i></color> <color=#FFD700><u>lo</u></color>
+      <color=#FF6347><b>mejor.</b></color> <color=#4682B4><i>Cada</i></color> <color=#FF1493><u>quien</u></color>
+      <color=#00FA9A><b>a</b></color> <color=#DA70D6><i>su</i></color> <color=#20B2AA><u>manera,</u></color>
+      <color=#800080><b>pero</b></color> <color=#B22222><i>juntos.</i></color>
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Sofia
+    texto: "<color=#FF8C00><b>As\xED</b></color> <color=#4B0082><i>es.</i></color>
+      <color=#32CD32><u>\xBFHan</u></color> <color=#FF1493><b>pensado</b></color>
+      <color=#1E90FF><i>en</i></color> <color=#FFD700><u>qu\xE9</u></color> <color=#00FA9A><b>ropa</b></color>
+      <color=#FF4500><i>llevar?</i></color>"
+    image: {fileID: 21300000, guid: d940cd9b452d4ff43a7af22219e7b89d, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Alan
+    texto: "<color=#8A2BE2><b>Definitivamente</b></color> <color=#FF6347><i>traje</i></color>
+      <color=#3CB371><u>de</u></color> <color=#FFD700><b>ba\xF1o,</b></color> <color=#00BFFF><i>ropa</i></color>
+      <color=#FF1493><u>ligera</u></color> <color=#DA70D6><b>y</b></color> <color=#FF8C00><i>sandalias.</i></color>"
+    image: {fileID: 21300000, guid: f25ce8d32851b0d4b8a089b52abf458e, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  - name: Eduardo
+    texto: "<color=#6A5ACD><b>Igual.</b></color> <color=#FF4500><i>Algo</i></color>
+      <color=#2E8B57><u>c\xF3modo</u></color> <color=#FF69B4><b>para</b></color>
+      <color=#20B2AA><i>el</i></color> <color=#DAA520><u>calor.</u></color>"
+    image: {fileID: 21300000, guid: aceb2b0311ea1bb4283822ea90b42418, type: 3}
+    fondo_conversacion: {fileID: 21300000, guid: 87e1396a526959f4293c71e045632ad3, type: 3}
+  txt_mensaje: {fileID: 668002463}
+  txt_nombre: {fileID: 757231339}
+  foto_personaje: {fileID: 781784837}
+  fondo: {fileID: 1964422719}
+--- !u!4 &2110908497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110908495}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 431.66666, y: 214.33333, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 430517849}
+  - {fileID: 1065350480}
+  - {fileID: 1504504894}
+  - {fileID: 2110908497}
